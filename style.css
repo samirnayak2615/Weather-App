@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background: violet;
+    color: white;
+    text-align: center;
+    background-image: url('vecteezy_sun-with-rain-light-weather-3d-illustration_27079477.png');
+    background-repeat: no-repeat;
+}
+.weather-container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rosybrown;
+    border-radius: 10px;
+}
+.search-box {
+    margin-bottom: 20px;
+    
+}
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 15px;
+}
+button {
+    padding: 10px;
+    border: none;
+    background-color: darkmagenta;
+    color: white;
+    border-radius: 5px;
+}
+p{
+    color: rgb(29, 65, 93);
+    font-size: large;
+    font-weight: 700;
+}
+h2{
+    color: rgb(70, 1, 79);
+}
+#image {
+    display: none;
+    width: 60%;
+    height: 50%;
+    margin-top: 20px;
+}
